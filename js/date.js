@@ -1,0 +1,1 @@
+document.querySelector("#dob_input").valueAsDate = new Date();
