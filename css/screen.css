@@ -96,3 +96,69 @@ label {
   margin-top: 1em; /* 16px */
   font-size: 1em; /* 16px */
 }
+
+::selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-moz-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-o-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-ms-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+::-webkit-selection {
+  background-color: #8994c2;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: .9em;
+  }
+
+  #form_section {
+    width:75%;
+  }
+
+  input {
+    width:100%;
+  }
+
+  label {
+    width:100%;
+  }
+
+  #submit_button {
+    width:50%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+    font-size: .75em;
+  }
+
+  input {
+    width:18em;
+  }
+
+  label {
+    width: 10em;
+    float:left;
+  }
+
+  #submit_button {
+    width:8em;
+  }
+}
