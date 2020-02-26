@@ -33,12 +33,24 @@ header {
 h1 {
   font-family: 'Damion', cursive;
   font-size: 3.583em; /* 57.331px */
+  text-align: center;
+}
+
+#desc_section {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1em; /* 16px */
+}
+
+#desc_section p {
+  margin-top: 1em; /* 16px */
 }
 
 #form_section {
   width:100%;
   margin:auto;
-  font-size: 1.3em;
+  font-size: 1em; /* 16px */
 }
 
 input {
@@ -49,14 +61,14 @@ input {
   margin-top: 1em;
   padding: .6em;
   background-color: #EDFDFB;
-  color: #3A9B8E;
-  font-size: 1.15em;
+  color: rgb(16, 148, 130);
+  font-size: 1em; /* 16px */
   border: none;
   border-radius: 0 5px 5px 0;
   -webkit-appearance: none;
 }
 
-input[type=email]:focus {
+input[type=email]:focus,[type=text]:focus,[type=tel]:focus {
   outline: none;
   border: 0.5px solid #ffffff;
   box-shadow: 0 0 4px #ffffff;
@@ -64,7 +76,7 @@ input[type=email]:focus {
 
 #submit_button {
   width:75%;
-  margin-top: 1.25em;
+  margin-top: 1em; /* 16px */
   border-radius: 5px;
   background-color: #3A9B8E;
   color:#EDFDFB;
@@ -81,7 +93,6 @@ label {
   box-sizing: border-box;
   margin:auto;
   width: 95%;
-  margin-top: 1.25em;
-  font-size: 1.2em;
+  margin-top: 1em; /* 16px */
+  font-size: 1em; /* 16px */
 }
-
