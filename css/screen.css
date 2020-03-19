@@ -46,7 +46,6 @@ h1 {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  padding: 1em; /* 16px */
 }
 
 #desc_section p {
