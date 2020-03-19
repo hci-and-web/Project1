@@ -36,6 +36,12 @@ h1 {
   text-align: center;
 }
 
+#container {
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+}
+
 #desc_section {
   display: block;
   box-sizing: border-box;
