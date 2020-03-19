@@ -138,11 +138,11 @@ label {
     width:75%;
   }
 
-  input {
+  label {
     width:100%;
   }
 
-  label {
+  input {
     width:100%;
   }
 
@@ -158,13 +158,14 @@ label {
     font-size: .75em;
   }
 
-  input {
-    width:18em;
-  }
-
   label {
     width: 10em;
-    float:left;
+    float: inline-start;
+  }
+
+  input {
+    float: inline-end;
+    width:18em;
   }
 
   #submit_button {
