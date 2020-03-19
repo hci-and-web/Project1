@@ -103,30 +103,32 @@ label {
 }
 
 ::selection {
-  background-color: #8994c2;
-  color: #fff;
+  background-color: #EDFDFB;
+  color: rgb(16, 148, 130);
 }
 
 ::-moz-selection {
-  background-color: #8994c2;
-  color: #fff;
+  background-color: #EDFDFB;
+  color: rgb(16, 148, 130)
 }
 
 ::-o-selection {
-  background-color: #8994c2;
-  color: #fff;
+  background-color: #EDFDFB;
+  color: rgb(16, 148, 130)
 }
 
 ::-ms-selection {
-  background-color: #8994c2;
-  color: #fff;
+  background-color: #EDFDFB;
+  color: rgb(16, 148, 130)
 }
 
 ::-webkit-selection {
-  background-color: #8994c2;
-  color: #fff;
+  background-color: #EDFDFB;
+  color: rgb(16, 148, 130)
 }
 
+
+/* Tablet */
 @media only screen and (min-width: 768px) {
   body {
     font-size: .9em;
@@ -149,6 +151,8 @@ label {
   }
 }
 
+
+/* Laptop/Desktop */
 @media only screen and (min-width: 1025px) {
   body {
     font-size: .75em;
