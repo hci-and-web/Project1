@@ -40,13 +40,14 @@ h1 {
   display: block;
   box-sizing: border-box;
   margin: auto;
+  width: 95%;
 }
 
 #desc_section {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  padding-left: 1em;
+  width: 100%;
 }
 
 #desc_section p {
@@ -54,7 +55,7 @@ h1 {
 }
 
 #form_section {
-  width:100%;
+  width: 100%;
   margin:auto;
   font-size: 1em; /* 16px */
 }
@@ -63,7 +64,7 @@ input {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  width: 95%;
+  width: 100%;
   margin-top: 1em;
   padding: .6em;
   background-color: #EDFDFB;
@@ -98,7 +99,7 @@ label {
   display: block;
   box-sizing: border-box;
   margin:auto;
-  width: 95%;
+  width: 100%;
   margin-top: 1em; /* 16px */
   font-size: 1em; /* 16px */
 }
@@ -159,7 +160,7 @@ label {
     font-size: .75em;
   }
 
-  #form_section {
+  #container {
     width: 40em;
   }
 
