@@ -46,6 +46,7 @@ h1 {
   display: block;
   box-sizing: border-box;
   margin: auto;
+  padding-left: 1em;
 }
 
 #desc_section p {
@@ -138,11 +139,11 @@ label {
     width:75%;
   }
 
-  label {
+  input {
     width:100%;
   }
 
-  input {
+  label {
     width:100%;
   }
 
@@ -158,14 +159,17 @@ label {
     font-size: .75em;
   }
 
-  label {
-    width: 10em;
-    float: inline-start;
+  #form_section {
+    width: 40em;
   }
 
   input {
-    float: inline-end;
-    width:18em;
+    width: 30em;
+  }
+
+  label {
+    width: 10em;
+    float: left;
   }
 
   #submit_button {
