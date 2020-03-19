@@ -1,6 +1,6 @@
 /* 
 
-TODO
+TODO: write desc documentation
 This polyfill script ... 
 
 */
