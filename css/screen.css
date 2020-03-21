@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #8CDAD0;
+  background-color: #a9ece3;
   color:#000000;
 }
 
@@ -25,7 +25,7 @@ header {
   width: 100%;
   margin: auto;
   padding: 1.15em 1.5em;
-  background-color: #5FBDB0;
+  background-color: #3A9B8E;
   color: #ffffff;
 }
 
@@ -35,20 +35,23 @@ header {
   margin-bottom: .25em;
 }
 
+/*
 #container {
   display: block;
   box-sizing: border-box;
   margin: auto;
   width: 95%;
 }
+*/
 
 #desc_section {
   display: block;
   box-sizing: border-box;
   margin: auto;
   width: 100%;
-  margin-top: 1em;
+  padding: 1em 0 3em 0;
   text-align: center;
+  background-color: #5FBDB0;
 }
 
 h1 {
@@ -63,8 +66,9 @@ h1 {
 #form_section {
   width: 100%;
   margin:auto;
-  margin-top: 2em;
+  padding: 1em 0 1em 0;
   font-size: 1em; /* 16px */
+  background-color: #8CDAD0;
 }
 
 h2 {
@@ -78,7 +82,7 @@ input {
   display: block;
   box-sizing: border-box;
   margin: auto;
-  width: 100%;
+  width: 90%;
   margin-top: 1em;
   padding: .6em;
   background-color: #EDFDFB;
@@ -113,12 +117,48 @@ label {
   display: block;
   box-sizing: border-box;
   margin:auto;
-  width: 100%;
+  width: 90%;
   margin-top: 1em; /* 16px */
   font-size: 1em; /* 16px */
 }
 
-::selection {
+#detail_section {
+  display: block;
+  box-sizing: border-box;
+  width:100%;
+  padding:3em;
+}
+
+.detail {
+  display: block;
+  margin-bottom: 2em;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.img_attr {
+  font-size: .6em;
+  color: #3A9B8E;
+}
+
+a {
+  text-decoration: none;
+  color: #3A9B8E;
+}
+
+.detail p {
+  margin-top: .5em;
+  text-align: center;
+}
+
+
+
+
+/* ::selection {
   background-color: #EDFDFB;
   color: rgb(16, 148, 130);
 }
@@ -141,7 +181,7 @@ label {
 ::-webkit-selection {
   background-color: #EDFDFB;
   color: rgb(16, 148, 130)
-}
+} */
 
 
 /* Tablet */
@@ -150,28 +190,24 @@ label {
     font-size: .9em;
   }
 
-  #container {
-    width:75%;
-  }
-
-  #desc_section {
-    margin-top: 2em;
-  }
-
-  #form_section {
-    margin-top: 3em;
+  #desc_section p {
+    font-size: 1.1em;
   }
 
   input {
-    width:100%;
+    width:70%;
   }
 
   label {
-    width:100%;
+    width:70%;
   }
 
   #submit_button {
     width:50%;
+  }
+
+  img {
+    width:40%;
   }
 }
 
@@ -179,27 +215,46 @@ label {
 /* Laptop/Desktop */
 @media only screen and (min-width: 1025px) {
   body {
-    font-size: .75em;
-  }
-
-  #container {
-    width: 40em;
+    font-size: .8em;
   }
 
   h1 {
-    margin-bottom: 1em;
+    margin-bottom: .6em;
+  }
+
+  #desc_section p {
+    font-size: 1.15em;
+  }
+
+  form {
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    width:48em;
   }
 
   input {
     width: 30em;
+    font-size: 1.15em;
   }
 
   label {
     width: 10em;
     float: left;
+    font-size: 1.15em;
   }
 
   #submit_button {
     width:8em;
+  }
+
+  .detail {
+    display: inline-block;
+    width:33%;
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 50%;
   }
 }
