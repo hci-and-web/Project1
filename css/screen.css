@@ -33,6 +33,7 @@ header {
   font-size: 3em;
   font-family: 'Damion', sans-serif;
   margin-bottom: .25em;
+  text-align: center;
 }
 
 /*
@@ -131,7 +132,7 @@ label {
 
 .detail {
   display: block;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 img {
@@ -140,19 +141,22 @@ img {
   width: 50%;
 }
 
+.detail_p {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 1.25em;
+}
+
 .img_attr {
-  font-size: .6em;
-  color: #3A9B8E;
+  margin-top: 1em;
+  text-align: center;
+  font-size: .7em;
+  color: #5FBDB0;
 }
 
 a {
   text-decoration: none;
-  color: #3A9B8E;
-}
-
-.detail p {
-  margin-top: .5em;
-  text-align: center;
+  color: #5FBDB0;
 }
 
 
@@ -190,6 +194,12 @@ a {
     font-size: .9em;
   }
 
+  #company_title {
+    margin-top: .3em;
+    margin-bottom: .3em;
+    text-align: left;
+  }
+
   #desc_section p {
     font-size: 1.1em;
   }
@@ -209,13 +219,22 @@ a {
   img {
     width:40%;
   }
+
+  .detail_p {
+    font-size: 1.3em;
+  }
 }
 
 
 /* Laptop/Desktop */
 @media only screen and (min-width: 1025px) {
   body {
-    font-size: .8em;
+    font-size: .9em;
+  }
+
+  #company_title {
+    margin-top: .5em;
+    margin-bottom: .5em;
   }
 
   h1 {
@@ -251,10 +270,10 @@ a {
   .detail {
     display: inline-block;
     width:33%;
-    font-size: 1.5em;
   }
 
   img {
     width: 50%;
   }
+
 }
