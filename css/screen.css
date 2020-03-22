@@ -4,14 +4,12 @@ font-family: 'Damion', cursive;
 */
 
 /* TODO: switch sizing to a modular scale
-   TODO: add images / imagery
-   TODO: add project description below form
 */
 
 html {
   line-height: 1.2em;
   font-family: 'Montserrat', cursive;
-  font-size: 16px;
+  font-size: 16px; 
 }
 
 body {
@@ -26,7 +24,7 @@ header {
   margin: auto;
   padding: 1.15em 1.5em;
   background-color: #3A9B8E;
-  color: #ffffff;
+  color: #f3fcfa;
 }
 
 #company_title {
@@ -36,15 +34,6 @@ header {
   text-align: center;
 }
 
-/*
-#container {
-  display: block;
-  box-sizing: border-box;
-  margin: auto;
-  width: 95%;
-}
-*/
-
 #desc_section {
   display: block;
   box-sizing: border-box;
@@ -53,11 +42,13 @@ header {
   padding: 1em 0 3em 0;
   text-align: center;
   background-color: #5FBDB0;
+  color:#EDFDFB;
 }
 
 h1 {
   font-family: 'Damion', cursive;
   font-size: 3.583em; /* 57.331px */
+  color:#ffffff;
 }
 
 #desc_section p {
@@ -160,34 +151,6 @@ a {
 }
 
 
-
-
-/* ::selection {
-  background-color: #EDFDFB;
-  color: rgb(16, 148, 130);
-}
-
-::-moz-selection {
-  background-color: #EDFDFB;
-  color: rgb(16, 148, 130)
-}
-
-::-o-selection {
-  background-color: #EDFDFB;
-  color: rgb(16, 148, 130)
-}
-
-::-ms-selection {
-  background-color: #EDFDFB;
-  color: rgb(16, 148, 130)
-}
-
-::-webkit-selection {
-  background-color: #EDFDFB;
-  color: rgb(16, 148, 130)
-} */
-
-
 /* Tablet */
 @media only screen and (min-width: 768px) {
   body {
@@ -275,5 +238,4 @@ a {
   img {
     width: 50%;
   }
-
 }

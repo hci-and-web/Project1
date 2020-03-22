@@ -6,7 +6,6 @@
     <link rel="stylesheet" media="screen" href="css/reset.css" />
     <link rel="stylesheet" media="screen" href="css/screen.css" />
     <link href="https://fonts.googleapis.com/css?family=Damion|Montserrat:500&display=swap" rel="stylesheet">
-    <script src="js/interactive.js"></script>
     <title>Beta-Tester Sign Up</title>
   </head>
   
@@ -19,7 +18,7 @@
 
       <section id="desc_section">
         <h1>Join the Movement</h1>
-        <p>Hey Poet,</p>
+        <p>Hey poet,</p>
         <p>Do you like pushing boundaries?</p> 
         <p>Sharing your perspective?</p>
         <p>Getting first access to new features?</p>
@@ -29,13 +28,13 @@
       <section id="form_section">
         <h2>Sign Up</h2>
         <form method="get" action="#null" autocomplete="on">
-          <label for="username_input">Username</label>
+          <label for="username_input" id="un_in_label">Username</label>
           <input id="username_input" type="text" placeholder="Username" autofocus>
 
-          <label for="dob_input">Date of Birth</label>
-          <input id="dob_input" type="date">
+          <label for="dob_input" id="dob_in_label">Date of Birth</label>
+          <input id="dob_input" type="date" value="">
 
-          <label for="email_input">Email</label>
+          <label for="email_input" id="em_in_label">Email</label>
           <input id="email_input" type="email" placeholder="Email">
 
           <input id="submit_button" type="button" value="Join">
@@ -53,7 +52,7 @@
         <div class="detail">
           <img src="img/phone.png" alt="Smartphone.">
           <p class="img_attr">Image by: <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a></p>
-          <p class="detail_p">Find things we could improve</p>
+          <p class="detail_p">Find things we can improve</p>
         </div>
 
         <div class="detail">
@@ -62,6 +61,7 @@
           <p class="detail_p">Share your ideas with us!</p>
         </div>
       </section>
-
+      <script src="js/interactive.js"></script>
   </body>
 </html>
+
