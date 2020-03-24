@@ -220,7 +220,7 @@ a {
     display: block;
     box-sizing: border-box;
     margin: auto;
-    width:48em;
+    width: 50em;
   }
 
   input {
@@ -229,9 +229,10 @@ a {
   }
 
   label {
-    width: 10em;
+    width: 12em;
     float: left;
     font-size: 1.15em;
+    background-color: orchid;
   }
 
   #submit_button {
